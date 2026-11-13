@@ -1,1 +1,438 @@
-palacinkarnica
+<!DOCTYPE html>
+<html lang="sr-Latn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Palačinkarnica Slatki Nabor — slatke i slane palačinke, Dorćol</title>
+  <meta name="description" content="Topla kora i slatki nabor na Dorćolu. Slatke, slane palačinke i palačinka po meri. Izmišljen primer sajta — demo: WebGlow Studio.">
+  <meta name="theme-color" content="#FBF4EA">
+  <meta property="og:title" content="Palačinkarnica Slatki Nabor">
+  <meta property="og:description" content="Primer sajta palačinkarnice na Dorćolu. Demo: WebGlow Studio, Beograd.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="sr_RS">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body id="vrh">
+  <a class="skip" href="#sadrzaj">Preskoči na sadržaj</a>
+
+  <header class="site-header" data-header>
+    <div class="header-bar">
+      <a class="logo" href="#vrh">
+        <span class="logo-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span class="logo-text">
+          <span class="logo-kicker">Palačinkarnica</span>
+          <span class="logo-name">Slatki Nabor</span>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navigacija">
+        <span class="sr-only">Otvori meni</span>
+        <span class="bars" aria-hidden="true"><span></span><span></span><span></span></span>
+      </button>
+      <nav class="nav" id="navigacija" aria-label="Glavno">
+        <a href="#o-nama">O nama</a>
+        <a href="#meni">Meni</a>
+        <a href="#graditelj">Napravi</a>
+        <a href="#galerija">Galerija</a>
+        <a href="#utisci">Utisci</a>
+        <a href="#kontakt">Kontakt</a>
+        <a class="btn btn-small" href="#kontakt">Poruči</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="sadrzaj">
+    <section class="hero" aria-labelledby="hero-naslov">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Dorćol · Beograd</p>
+          <h1 id="hero-naslov">Topla kora.<br><em>Slatki nabor.</em></h1>
+          <p class="lead">Pečemo palačinke pred vama. Tanke zlatne kore, pun preliv — slatke, slane ili onako kako ih sami složite.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#meni">Pogledaj meni</a>
+            <a class="btn btn-ghost" href="#kontakt">Poruči</a>
+          </div>
+        </div>
+
+        <div class="hero-art">
+          <div class="floaters" aria-hidden="true">
+            <span class="floater f-berry f1" data-depth="16" data-speed="0.06"><span class="floater-inner" style="--r:-8deg">
+              <svg viewBox="0 0 64 74" width="54" height="62"><ellipse cx="32" cy="46" rx="16" ry="20" fill="#E25B6C"/><ellipse cx="26" cy="40" rx="6" ry="8" fill="#F07A88" opacity=".7"/><circle cx="24" cy="42" r="1.1" fill="#F8E2B8"/><circle cx="30" cy="48" r="1.1" fill="#F8E2B8"/><circle cx="36" cy="44" r="1.1" fill="#F8E2B8"/><circle cx="28" cy="56" r="1.1" fill="#F8E2B8"/><circle cx="38" cy="54" r="1.1" fill="#F8E2B8"/><path d="M24 28c2-6 8-10 12-8 2 6-2 10-6 12-4 1-8 0-6-4z" fill="#6E8B5A"/><path d="M34 24c6-2 12 2 12 6-6 1-10-1-12-6z" fill="#7FA068"/></svg>
+            </span></span>
+            <span class="floater f-nut f2" data-depth="26" data-speed="-0.04"><span class="floater-inner" style="--r:10deg">
+              <svg viewBox="0 0 48 48" width="42" height="42"><ellipse cx="24" cy="26" rx="14" ry="12" fill="#C4844A"/><ellipse cx="24" cy="26" rx="9" ry="8" fill="#E2B56A"/><path d="M24 15c1.5 7 1.5 14 0 22" stroke="#7A4A28" stroke-width="1.4" fill="none"/><ellipse cx="20" cy="22" rx="3" ry="2" fill="#F0D7A4" opacity=".8"/></svg>
+            </span></span>
+            <span class="floater f-chip f3" data-depth="12" data-speed="0.09"><span class="floater-inner" style="--r:-4deg">
+              <svg viewBox="0 0 32 32" width="26" height="26"><ellipse cx="16" cy="18" rx="11" ry="8" fill="#5C331C"/><ellipse cx="13" cy="15" rx="4" ry="2.4" fill="#8A5340"/></svg>
+            </span></span>
+            <span class="floater f-chip f4" data-depth="20" data-speed="0.05"><span class="floater-inner" style="--r:14deg">
+              <svg viewBox="0 0 32 32" width="20" height="20"><ellipse cx="16" cy="18" rx="11" ry="8" fill="#4A2818"/><ellipse cx="14" cy="15" rx="4" ry="2.2" fill="#7A4B30"/></svg>
+            </span></span>
+            <span class="floater f-berry f5" data-depth="22" data-speed="-0.08"><span class="floater-inner" style="--r:12deg">
+              <svg viewBox="0 0 64 74" width="44" height="50"><ellipse cx="32" cy="46" rx="16" ry="20" fill="#D94F62"/><circle cx="26" cy="44" r="1.1" fill="#F8E2B8"/><circle cx="34" cy="50" r="1.1" fill="#F8E2B8"/><circle cx="38" cy="40" r="1.1" fill="#F8E2B8"/><path d="M22 30c4-8 14-10 18-4-6 2-10 2-14 6-2-1-4-1-4-2z" fill="#6E8B5A"/></svg>
+            </span></span>
+            <span class="floater f-nut f6" data-depth="14" data-speed="0.07"><span class="floater-inner" style="--r:-12deg">
+              <svg viewBox="0 0 48 48" width="36" height="36"><ellipse cx="24" cy="26" rx="13" ry="11" fill="#A86B32"/><ellipse cx="24" cy="26" rx="8" ry="7" fill="#D7A15C"/><path d="M24 16c1 6 1 12 0 20" stroke="#6B3E22" stroke-width="1.3" fill="none"/></svg>
+            </span></span>
+            <span class="floater f-chip f7" data-depth="18" data-speed="-0.05"><span class="floater-inner" style="--r:6deg">
+              <svg viewBox="0 0 32 32" width="22" height="22"><ellipse cx="16" cy="18" rx="11" ry="8" fill="#6B3A22"/><ellipse cx="12" cy="16" rx="3.5" ry="2" fill="#A36B48"/></svg>
+            </span></span>
+          </div>
+
+          <div class="stack" aria-hidden="true">
+            <div class="plate"></div>
+            <div class="shadow-blob"></div>
+            <div class="cake" style="--i:0; --w:78%"><div class="cake-body"></div></div>
+            <div class="cake" style="--i:1; --w:80%"><span class="filling filling-berry"></span><div class="cake-body"></div></div>
+            <div class="cake" style="--i:2; --w:76%"><div class="cake-body"></div></div>
+            <div class="cake" style="--i:3; --w:74%"><span class="filling filling-choc"></span><div class="cake-body"></div></div>
+            <div class="cake" style="--i:4; --w:68%"><div class="cake-body"></div></div>
+            <svg class="syrup" viewBox="0 0 320 400" focusable="false">
+              <defs>
+                <linearGradient id="chocPour" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0" stop-color="#8B5A3C"/>
+                  <stop offset="0.45" stop-color="#5C331C"/>
+                  <stop offset="1" stop-color="#3E2416"/>
+                </linearGradient>
+              </defs>
+              <ellipse class="pool" cx="158" cy="214" rx="46" ry="11"/>
+              <path class="stream" pathLength="1" d="M188 220 C206 255 176 286 196 328 C208 352 190 378 198 396" fill="none" stroke="url(#chocPour)" stroke-width="8" stroke-linecap="round"/>
+              <path class="stream stream-shine" pathLength="1" d="M184 224 C198 252 174 280 190 318" fill="none" stroke="#C4896A" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
+              <circle class="bead" cx="0" cy="0" r="4.5" fill="#4A2818">
+                <animateMotion dur="2.6s" begin="3s" repeatCount="indefinite" path="M188 226 C206 258 178 292 196 332 C206 356 192 380 198 396" calcMode="spline" keySplines="0.4 0 0.7 0.4" keyTimes="0;1"/>
+              </circle>
+            </svg>
+            <div class="garnish">
+              <span class="butter"></span>
+              <span class="berry-top"></span>
+            </div>
+            <div class="steam">
+              <span></span><span></span><span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="o-nama" aria-labelledby="o-nama-naslov">
+      <div class="container about">
+        <div class="about-copy reveal">
+          <p class="eyebrow">O nama</p>
+          <h2 id="o-nama-naslov">Mala radnja, vruć tiganj.</h2>
+          <p>Slatki Nabor je palačinkarnica u kojoj se testo muti svako jutro. Ne vadimo gotove kore ispod lampe. Tiganj je na pultu, a palačinka stiže dok je još vruća.</p>
+          <p>Na dohvat ruke su med, sezonsko voće, plazma, eurokrem i slani nadevi. Vi kažete kombinaciju — mi je pečemo.</p>
+          <ul class="facts">
+            <li><strong>Svako jutro</strong><span>Sveže testo, mutimo ga ujutru.</span></li>
+            <li><strong>Pred vama</strong><span>Iz tiganja na tanjir, bez lampe.</span></li>
+            <li><strong>Po meri</strong><span>Slatko, slano ili nešto između.</span></li>
+          </ul>
+        </div>
+        <div class="about-visual reveal">
+          <div class="pan-scene" aria-hidden="true">
+            <div class="pan-steam"><span></span><span></span><span></span></div>
+            <div class="flipper"><div class="crepe-disc"></div></div>
+            <div class="pan">
+              <div class="pan-head"><span class="pan-surface"></span></div>
+              <div class="pan-handle"></div>
+            </div>
+            <div class="pan-glow"></div>
+          </div>
+          <p class="visual-caption">Kora poleti, okrene se i vrati u tiganj.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="meni" aria-labelledby="meni-naslov">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Meni</p>
+          <h2 id="meni-naslov">Slatko, slano i kućni specijaliteti</h2>
+          <p>Kore su tanke, preliv nije škrt. Izaberite stranu tanjira.</p>
+          <p class="price-note"><strong>Cene su primer.</strong> Brojevi pokazuju kako cenovnik može da stoji na sajtu.</p>
+        </div>
+
+        <div class="filters" role="tablist" aria-label="Kategorije menija">
+          <span class="tab-glider" aria-hidden="true"></span>
+          <button type="button" role="tab" id="tab-slatke" aria-selected="true" aria-controls="menu-grid" data-filter="slatke">Slatke</button>
+          <button type="button" role="tab" id="tab-slane" aria-selected="false" aria-controls="menu-grid" tabindex="-1" data-filter="slane">Slane</button>
+          <button type="button" role="tab" id="tab-specijaliteti" aria-selected="false" aria-controls="menu-grid" tabindex="-1" data-filter="specijaliteti">Specijaliteti</button>
+        </div>
+
+        <div class="menu-grid" id="menu-grid" role="tabpanel" aria-labelledby="tab-slatke">
+          <article class="menu-card reveal is-shown" data-cat="slatke" style="--sauce:linear-gradient(90deg,#5C331C,#E0A56A)">
+            <div class="menu-card-inner">
+              <div class="menu-card-head"><h3>Nutella</h3><p class="price">390 RSD</p></div>
+              <p>Nutela, kriške banane i šlag.</p>
+            </div>
+          </article>
+          <article class="menu-card reveal is-shown" data-cat="slatke" style="--sauce:linear-gradient(90deg,#E6C27A,#F6E7C4)">
+            <div class="menu-card-inner">
+              <div class="menu-card-head"><h3>Plazma</h3><p class="price">360 RSD</p></div>
+              <p>Mleveni plazma keks, mlečni krem i kap meda.</p>
+            </div>
+          </article>
+          <article class="menu-card reveal is-shown" data-cat="slatke" style="--sauce:linear-gradient(90deg,#8D6A3A,#F0D7A8)">
+            <div class="menu-card-inner">
+              <div class="menu-card-head"><h3>Eurokrem</h3><p class="price">350 RSD</p></div>
+              <p>Eurokrem, lešnik i malo toplog mleka.</p>
+            </div>
+          </article>
+          <article class="menu-card reveal is-shown" data-cat="slatke" style="--sauce:linear-gradient(90deg,#E25B6C,#F3C27A)">
+            <div class="menu-card-inner">
+              <div class="menu-card-head"><h3>Voće</h3><p class="price">420 RSD</p></div>
+              <p>Sezonsko voće, sos od vanile i list nane.</p>
+            </div>
+          </article>
+          <article class="menu-card reveal is-shown" data-cat="slatke" style="--sauce:linear-gradient(90deg,#F7F1E8,#E7D3A8)">
+            <div class="menu-card-inner">
+              <div class="menu-card-head"><h3>Raffaello</h3><p class="price">490 RSD</p></div>
+              <p>Beli krem, kokos i badem.</p>
+            </div>
+          </article>
+
+          <article class="menu-card reveal" data-cat="slane" style="--sauce:linear-gradient(90deg,#E08A7A,#F3D2A8)">
+            <div class="menu-card-inner">
+              <div class="menu-card-head"><h3>Šunka-sir</h3><p class="price">430 RSD</p></div>
+              <p>Šunka, gauda i kašika pavlake.</p>
+            </div>
+          </article>
+          <article class="menu-card reveal" data-cat="slane" style="--sauce:linear-gradient(90deg,#C4A574,#EFE6D8)">
+            <div class="menu-card-inner">
+              <div class="menu-card-head"><h3>Pečurke</h3><p class="price">410 RSD</p></div>
+              <p>Šampinjoni, mladi luk i topljeni sir.</p>
+            </div>
+          </article>
+          <article class="menu-card reveal" data-cat="slane" style="--sauce:linear-gradient(90deg,#E0B07A,#F6E1C4)">
+            <div class="menu-card-inner">
+              <div class="menu-card-head"><h3>Piletina</h3><p class="price">470 RSD</p></div>
+              <p>Piletina, kisela pavlaka i vlašac.</p>
+            </div>
+          </article>
+          <article class="menu-card reveal" data-cat="slane" style="--sauce:linear-gradient(90deg,#8EAE72,#E5F0D8)">
+            <div class="menu-card-inner">
+              <div class="menu-card-head"><h3>Vege</h3><p class="price">440 RSD</p></div>
+              <p>Tikvica, paprika, spanać i feta.</p>
+            </div>
+          </article>
+
+          <article class="menu-card reveal" data-cat="specijaliteti" style="--sauce:linear-gradient(90deg,#E0A84A,#F6E7B8)">
+            <div class="menu-card-inner">
+              <div class="menu-card-head"><h3>Medeni nabor</h3><p class="price">520 RSD</p></div>
+              <p>Bagremov med, orasi i kugla vanile.</p>
+            </div>
+          </article>
+          <article class="menu-card reveal" data-cat="specijaliteti" style="--sauce:linear-gradient(90deg,#E25B6C,#C4864A)">
+            <div class="menu-card-inner">
+              <div class="menu-card-head"><h3>Dorćol duo</h3><p class="price">560 RSD</p></div>
+              <p>Pola sa voćem, pola sa sirom — jedan tanjir.</p>
+            </div>
+          </article>
+          <article class="menu-card reveal" data-cat="specijaliteti" style="--sauce:linear-gradient(90deg,#6B3A4A,#E7B3C0)">
+            <div class="menu-card-inner">
+              <div class="menu-card-head"><h3>Šumska</h3><p class="price">510 RSD</p></div>
+              <p>Crna čokolada i šumsko voće.</p>
+            </div>
+          </article>
+          <article class="menu-card reveal" data-cat="specijaliteti" style="--sauce:linear-gradient(90deg,#F7E7EA,#FFF9F3)">
+            <div class="menu-card-inner">
+              <div class="menu-card-head"><h3>Bela dama</h3><p class="price">530 RSD</p></div>
+              <p>Bela čokolada, malina i šlag.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="graditelj" aria-labelledby="graditelj-naslov">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Po vašoj meri</p>
+          <h2 id="graditelj-naslov">Napravi svoju palačinku</h2>
+          <p>Izaberite koru i dodatke. Iznos se računa odmah i važi samo na ovom ekranu.</p>
+        </div>
+        <div class="builder reveal">
+          <form class="builder-form" id="builder" action="#" onsubmit="return false">
+            <fieldset>
+              <legend>Kora</legend>
+              <div class="choices">
+                <label class="choice"><input type="radio" name="baza" value="190" data-label="Klasična kora" checked><span>Klasična <small>190</small></span></label>
+                <label class="choice"><input type="radio" name="baza" value="220" data-label="Integralna kora"><span>Integralna <small>220</small></span></label>
+                <label class="choice"><input type="radio" name="baza" value="240" data-label="Čokoladna kora"><span>Čokoladna <small>240</small></span></label>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend>Dodaci</legend>
+              <div class="choices">
+                <label class="choice"><input type="checkbox" data-price="90" data-label="Nutella" data-kind="sweet"><span>Nutella <small>+90</small></span></label>
+                <label class="choice"><input type="checkbox" data-price="70" data-label="Plazma" data-kind="crunch"><span>Plazma <small>+70</small></span></label>
+                <label class="choice"><input type="checkbox" data-price="80" data-label="Eurokrem" data-kind="sweet"><span>Eurokrem <small>+80</small></span></label>
+                <label class="choice"><input type="checkbox" data-price="100" data-label="sezonsko voće" data-kind="fruit"><span>Voće <small>+100</small></span></label>
+                <label class="choice"><input type="checkbox" data-price="120" data-label="Raffaello" data-kind="sweet"><span>Raffaello <small>+120</small></span></label>
+                <label class="choice"><input type="checkbox" data-price="40" data-label="šlag" data-kind="cream"><span>Šlag <small>+40</small></span></label>
+                <label class="choice"><input type="checkbox" data-price="40" data-label="med" data-kind="sweet"><span>Med <small>+40</small></span></label>
+                <label class="choice"><input type="checkbox" data-price="50" data-label="orasi" data-kind="crunch"><span>Orasi <small>+50</small></span></label>
+                <label class="choice"><input type="checkbox" data-price="90" data-label="šunka" data-kind="savory"><span>Šunka <small>+90</small></span></label>
+                <label class="choice"><input type="checkbox" data-price="70" data-label="gauda" data-kind="savory"><span>Gauda <small>+70</small></span></label>
+                <label class="choice"><input type="checkbox" data-price="80" data-label="pečurke" data-kind="savory"><span>Pečurke <small>+80</small></span></label>
+                <label class="choice"><input type="checkbox" data-price="110" data-label="piletina" data-kind="savory"><span>Piletina <small>+110</small></span></label>
+              </div>
+            </fieldset>
+          </form>
+          <div class="builder-preview">
+            <div class="mini-plate" aria-hidden="true">
+              <div class="mini-cake"></div>
+              <div class="mini-dots" id="mini-dots"></div>
+            </div>
+            <p class="preview-line" id="preview-line">Klasična kora</p>
+            <p class="total" aria-live="polite" aria-atomic="true">Ukupno <strong id="builder-total">190 RSD</strong></p>
+            <p class="preview-note">Cene su primer. Ništa se ne naplaćuje i ne šalje.</p>
+            <a class="btn btn-primary" href="#kontakt">Poruči ovu</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="galerija" aria-labelledby="galerija-naslov">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Galerija</p>
+          <h2 id="galerija-naslov">Boje i prelivi</h2>
+          <p>Fotografije su ilustrativne, sa Unsplash-a. Nisu iz lokala — lokal je izmišljen za ovaj primer.</p>
+        </div>
+        <div class="gallery">
+          <figure class="reveal">
+            <img src="https://images.unsplash.com/photo-1506084868230-bb9d95c24759?auto=format&fit=crop&w=1200&q=80" width="1200" height="900" alt="Gomila palačinki sa borovnicama i medom na drvenom stolu" loading="lazy" decoding="async">
+            <figcaption><strong>Med i borovnice</strong><span>Ilustrativna fotografija</span></figcaption>
+          </figure>
+          <figure class="reveal">
+            <img src="https://images.unsplash.com/photo-1478144592103-25e218a04891?auto=format&fit=crop&w=1200&q=80" width="1200" height="900" alt="Palačinke sa svežim voćem na belim tanjirima" loading="lazy" decoding="async">
+            <figcaption><strong>Voćni tanjir</strong><span>Ilustrativna fotografija</span></figcaption>
+          </figure>
+          <figure class="reveal">
+            <img src="https://images.unsplash.com/photo-1528207776546-365bb710ee93?auto=format&fit=crop&w=1200&q=80" width="1200" height="900" alt="Palačinke prelivene sirupom, sa bananom i borovnicama" loading="lazy" decoding="async">
+            <figcaption><strong>Sirup i banana</strong><span>Ilustrativna fotografija</span></figcaption>
+          </figure>
+          <figure class="reveal">
+            <img src="https://images.unsplash.com/photo-1464965911861-746a04b4bca6?auto=format&fit=crop&w=1200&q=80" width="1200" height="900" alt="Gomila svežih jagoda" loading="lazy" decoding="async">
+            <figcaption><strong>Sveže jagode</strong><span>Ilustrativna fotografija</span></figcaption>
+          </figure>
+          <figure class="reveal">
+            <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=1200&q=80" width="1200" height="900" alt="Čaše sa belim kremom i seckanim jagodama" loading="lazy" decoding="async">
+            <figcaption><strong>Krem i jagode</strong><span>Ilustrativna fotografija</span></figcaption>
+          </figure>
+          <figure class="reveal">
+            <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=1200&q=80" width="1200" height="900" alt="Med se sipa preko visoke gomile palačinki" loading="lazy" decoding="async">
+            <figcaption><strong>Vruć preliv</strong><span>Ilustrativna fotografija</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="utisci" aria-labelledby="utisci-naslov">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Utisci</p>
+          <h2 id="utisci-naslov">Primer utisaka</h2>
+          <p class="example-note">Imena i rečenice su izmišljeni. Ovo nije spisak recenzija, nego primer kako kutak može da izgleda.</p>
+        </div>
+        <div class="quotes">
+          <figure class="quote reveal">
+            <blockquote>Kora je tanka, nutela topla, a šlag nije onaj iz kesice. Svake subote isti tanjir.</blockquote>
+            <figcaption>Ana M. · primer</figcaption>
+          </figure>
+          <figure class="quote reveal">
+            <blockquote>Slana sa pečurkama mi je ručak usred Dorćola. Brzo, toplo, i stolica nije na brzinu.</blockquote>
+            <figcaption>Marko P. · primer</figcaption>
+          </figure>
+          <figure class="quote reveal">
+            <blockquote>Deca uzmu Raffaello, ja voće. Sa stola ode prazan tanjir, svaki put.</blockquote>
+            <figcaption>Jelena K. · primer</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt visit-wrap" aria-label="Radno vreme i porudžbina">
+      <div class="container visit">
+        <section id="vreme" aria-labelledby="vreme-naslov">
+          <p class="eyebrow">Poseta</p>
+          <h2 id="vreme-naslov">Radno vreme</h2>
+          <p class="open-state" id="open-state" hidden></p>
+          <ul class="hours">
+            <li data-days="Mon Tue Wed Thu" data-open="09:00" data-close="22:00"><span>Ponedeljak – četvrtak</span><strong>09:00–22:00</strong></li>
+            <li data-days="Fri" data-open="09:00" data-close="23:00"><span>Petak</span><strong>09:00–23:00</strong></li>
+            <li data-days="Sat" data-open="10:00" data-close="23:00"><span>Subota</span><strong>10:00–23:00</strong></li>
+            <li data-days="Sun" data-open="10:00" data-close="21:00"><span>Nedelja</span><strong>10:00–21:00</strong></li>
+          </ul>
+          <div class="address-card">
+            <div class="mini-map" aria-hidden="true">
+              <span class="road r1"></span>
+              <span class="road r2"></span>
+              <span class="road r3"></span>
+              <span class="pin"></span>
+            </div>
+            <div>
+              <h3>Gde smo</h3>
+              <p>Kralja Petra 40<br>Dorćol, 11000 Beograd</p>
+              <p class="address-note">Adresa je izmišljena, za ovaj primer.</p>
+              <p><a href="tel:+381110000000">011 000 0000</a><br><span class="address-note">Broj je primer.</span></p>
+              <p><a href="mailto:zdravo@slatkinabor.example">zdravo@slatkinabor.example</a></p>
+            </div>
+          </div>
+        </section>
+
+        <section id="kontakt" aria-labelledby="kontakt-naslov">
+          <p class="eyebrow">Porudžbina</p>
+          <h2 id="kontakt-naslov">Poruči</h2>
+          <p>Ostavite ime i šta želite. Ovo je prikaz forme — poruka ostaje na vašem ekranu.</p>
+          <form class="order-form" id="order-form" action="#" novalidate onsubmit="return false">
+            <div class="form-row">
+              <label for="ime">Ime</label>
+              <input id="ime" name="ime" type="text" autocomplete="name" maxlength="80" placeholder="npr. Jana" required>
+            </div>
+            <div class="form-row">
+              <label for="telefon">Telefon</label>
+              <input id="telefon" name="telefon" type="tel" autocomplete="tel" maxlength="30" placeholder="npr. 06x 000 0000" required>
+            </div>
+            <div class="form-row">
+              <label for="poruka">Šta želite</label>
+              <textarea id="poruka" name="poruka" rows="4" maxlength="500" placeholder="npr. dve Nutelle i jedna šunka-sir"></textarea>
+            </div>
+            <p class="form-error" id="form-error" hidden>Upišite ime i broj telefona. Dovoljan je i izmišljen primer.</p>
+            <button class="btn btn-primary" type="submit">Pošalji porudžbinu</button>
+            <p class="form-hint">Slanjem se ništa ne šalje. Ovo je demo.</p>
+          </form>
+          <div class="form-success" id="form-success" tabindex="-1" hidden>
+            <h3>Poruka je ostala ovde</h3>
+            <p>Ovo je demo sajt — poruka nije poslata. Ništa nismo primili. WebGlow Studio samo pokazuje kako forma radi.</p>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p class="footer-brand">Palačinkarnica Slatki Nabor</p>
+        <p>Kralja Petra 40, Dorćol, Beograd</p>
+        <p class="footer-note">Izmišljen lokal, napravljen kao primer sajta.</p>
+      </div>
+      <nav aria-label="Podnožje">
+        <a href="#meni">Meni</a>
+        <a href="#graditelj">Napravi svoju</a>
+        <a href="#vreme">Radno vreme</a>
+        <a href="#kontakt">Poruči</a>
+      </nav>
+      <p class="studio">Demo sajt: WebGlow Studio</p>
+    </div>
+    <p class="copyright">© <span id="godina">2026</span> Primer sajta. Nije povezan ni sa jednom pravom palačinkarnicom.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
