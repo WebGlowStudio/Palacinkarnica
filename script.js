@@ -82,6 +82,7 @@
     parallaxPending = false;
     var y = window.scrollY || 0;
     floaters.forEach(function (el) {
+      if (el.classList.contains("is-landed")) return;
       var depth = Number(el.dataset.depth) || 12;
       var speed = Number(el.dataset.speed) || 0;
       var tx = pointer.x * depth;
@@ -96,7 +97,18 @@
     window.requestAnimationFrame(paintParallax);
   }
 
+  function landFloater(el) {
+    if (el.classList.contains("is-landed")) return;
+    el.classList.add("is-landed");
+    el.style.transform = "";
+  }
+
   if (!reduce && floaters.length) {
+    floaters.forEach(function (el) {
+      el.addEventListener("animationstart", function (event) {
+        if (event.animationName === "drift") landFloater(el);
+      });
+    });
     window.addEventListener("scroll", requestParallax, { passive: true });
     if (finePointer) {
       window.addEventListener(
